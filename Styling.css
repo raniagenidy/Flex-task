@@ -1,0 +1,24 @@
+
+.container {
+    display: flex;
+    background-color: rgb(231, 232, 224);
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.container > div  {
+    display: flex;
+background-color: rgb(76, 146, 196);
+color: white;
+width: 60px;
+height: 60px;
+border-radius: 5px;
+margin: 10px;
+justify-content: center;
+align-items: center;
+}
+
